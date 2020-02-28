@@ -256,7 +256,7 @@ The zoos are concerned about animals with a lower population count. Using filter
 const lowPopulationAnimals = [];
 zooAnimals.filter(function (a) {
   if (a.population < 5) {
-    return lowPopulationAnimals.push(a)
+    return lowPopulationAnimals.push(a.animal_name)
   }
 
 })
